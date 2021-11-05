@@ -13,7 +13,7 @@ Current version of pixman: 0.40.0
 Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-(==) Log file: "/var/log/Xorg.0.log", Time: Thu Nov  4 20:48:17 2021
+(==) Log file: "/var/log/Xorg.0.log", Time: Thu Nov  4 21:09:01 2021
 (==) Using system config directory "/usr/share/X11/xorg.conf.d"
 (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
 The XKEYBOARD keymap compiler (xkbcomp) reports:
@@ -157,12 +157,4 @@ The XKEYBOARD keymap compiler (xkbcomp) reports:
 Errors from xkbcomp are not fatal to the X server
 Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
 dbus-update-activation-environment: error: unable to connect to D-Bus: Using X11 for dbus-daemon autolaunch was disabled at compile time, set your DBUS_SESSION_BUS_ADDRESS instead
-/etc/X11/xinit/xinitrc: line 51: twm: command not found
-/etc/X11/xinit/xinitrc: line 52: xclock: command not found
-/etc/X11/xinit/xinitrc: line 53: xterm: command not found
-/etc/X11/xinit/xinitrc: line 55: exec: xterm: not found
-/etc/X11/xinit/xinitrc: line 54: xterm: command not found
-xinit: connection to X server lost
-
-waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
-
+(II) AIGLX: Suspending AIGLX clients for VT switch
