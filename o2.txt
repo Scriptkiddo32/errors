@@ -1,0 +1,168 @@
+
+
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+Build Operating System: Linux Archlinux
+Current Operating System: Linux arch 5.14.14-arch1-1 #1 SMP PREEMPT Wed, 20 Oct 2021 21:35:18 +0000 x86_64
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=a8e0787d-62b1-47fa-8075-c05581a1e03e rw loglevel=3 quiet
+Build Date: 31 October 2021  06:30:01AM
+ 
+Current version of pixman: 0.40.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Thu Nov  4 20:48:17 2021
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+(II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86BrightnessAuto
+> Warning:          Could not resolve keysym XF86DisplayOff
+> Warning:          Could not resolve keysym XF86Info
+> Warning:          Could not resolve keysym XF86AspectRatio
+> Warning:          Could not resolve keysym XF86DVD
+> Warning:          Could not resolve keysym XF86Audio
+> Warning:          Could not resolve keysym XF86ChannelUp
+> Warning:          Could not resolve keysym XF86ChannelDown
+> Warning:          Could not resolve keysym XF86Break
+> Warning:          Could not resolve keysym XF86VideoPhone
+> Warning:          Could not resolve keysym XF86ZoomReset
+> Warning:          Could not resolve keysym XF86Editor
+> Warning:          Could not resolve keysym XF86GraphicsEditor
+> Warning:          Could not resolve keysym XF86Presentation
+> Warning:          Could not resolve keysym XF86Database
+> Warning:          Could not resolve keysym XF86Voicemail
+> Warning:          Could not resolve keysym XF86Addressbook
+> Warning:          Could not resolve keysym XF86DisplayToggle
+> Warning:          Could not resolve keysym XF86SpellCheck
+> Warning:          Could not resolve keysym XF86ContextMenu
+> Warning:          Could not resolve keysym XF86MediaRepeat
+> Warning:          Could not resolve keysym XF8610ChannelsUp
+> Warning:          Could not resolve keysym XF8610ChannelsDown
+> Warning:          Could not resolve keysym XF86Images
+> Warning:          Could not resolve keysym XF86NotificationCenter
+> Warning:          Could not resolve keysym XF86PickupPhone
+> Warning:          Could not resolve keysym XF86HangupPhone
+> Warning:          Could not resolve keysym XF86Fn
+> Warning:          Could not resolve keysym XF86Fn_Esc
+> Warning:          Could not resolve keysym XF86FnRightShift
+> Warning:          Could not resolve keysym XF86Numeric0
+> Warning:          Could not resolve keysym XF86Numeric1
+> Warning:          Could not resolve keysym XF86Numeric2
+> Warning:          Could not resolve keysym XF86Numeric3
+> Warning:          Could not resolve keysym XF86Numeric4
+> Warning:          Could not resolve keysym XF86Numeric5
+> Warning:          Could not resolve keysym XF86Numeric6
+> Warning:          Could not resolve keysym XF86Numeric7
+> Warning:          Could not resolve keysym XF86Numeric8
+> Warning:          Could not resolve keysym XF86Numeric9
+> Warning:          Could not resolve keysym XF86NumericStar
+> Warning:          Could not resolve keysym XF86NumericPound
+> Warning:          Could not resolve keysym XF86NumericA
+> Warning:          Could not resolve keysym XF86NumericB
+> Warning:          Could not resolve keysym XF86NumericC
+> Warning:          Could not resolve keysym XF86NumericD
+> Warning:          Could not resolve keysym XF86CameraFocus
+> Warning:          Could not resolve keysym XF86WPSButton
+> Warning:          Could not resolve keysym XF86CameraZoomIn
+> Warning:          Could not resolve keysym XF86CameraZoomOut
+> Warning:          Could not resolve keysym XF86CameraUp
+> Warning:          Could not resolve keysym XF86CameraDown
+> Warning:          Could not resolve keysym XF86CameraLeft
+> Warning:          Could not resolve keysym XF86CameraRight
+> Warning:          Could not resolve keysym XF86AttendantOn
+> Warning:          Could not resolve keysym XF86AttendantOff
+> Warning:          Could not resolve keysym XF86AttendantToggle
+> Warning:          Could not resolve keysym XF86LightsToggle
+> Warning:          Could not resolve keysym XF86ALSToggle
+> Warning:          Could not resolve keysym XF86Buttonconfig
+> Warning:          Could not resolve keysym XF86Taskmanager
+> Warning:          Could not resolve keysym XF86Journal
+> Warning:          Could not resolve keysym XF86ControlPanel
+> Warning:          Could not resolve keysym XF86AppSelect
+> Warning:          Could not resolve keysym XF86Screensaver
+> Warning:          Could not resolve keysym XF86VoiceCommand
+> Warning:          Could not resolve keysym XF86Assistant
+> Warning:          Could not resolve keysym XF86BrightnessMin
+> Warning:          Could not resolve keysym XF86BrightnessMax
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrev
+> Warning:          Could not resolve keysym XF86KbdInputAssistNext
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistAccept
+> Warning:          Could not resolve keysym XF86KbdInputAssistCancel
+> Warning:          Could not resolve keysym XF86RightUp
+> Warning:          Could not resolve keysym XF86RightDown
+> Warning:          Could not resolve keysym XF86LeftUp
+> Warning:          Could not resolve keysym XF86LeftDown
+> Warning:          Could not resolve keysym XF86RootMenu
+> Warning:          Could not resolve keysym XF86MediaTopMenu
+> Warning:          Could not resolve keysym XF86Numeric11
+> Warning:          Could not resolve keysym XF86Numeric12
+> Warning:          Could not resolve keysym XF86AudioDesc
+> Warning:          Could not resolve keysym XF863DMode
+> Warning:          Could not resolve keysym XF86NextFavorite
+> Warning:          Could not resolve keysym XF86StopRecord
+> Warning:          Could not resolve keysym XF86PauseRecord
+> Warning:          Could not resolve keysym XF86VOD
+> Warning:          Could not resolve keysym XF86Unmute
+> Warning:          Could not resolve keysym XF86FastReverse
+> Warning:          Could not resolve keysym XF86SlowReverse
+> Warning:          Could not resolve keysym XF86Data
+> Warning:          Could not resolve keysym XF86OnScreenKeyboard
+> Warning:          Could not resolve keysym XF86PrivacyScreenToggle
+> Warning:          Could not resolve keysym XF86SelectiveScreenshot
+> Warning:          Could not resolve keysym XF86Macro1
+> Warning:          Could not resolve keysym XF86Macro2
+> Warning:          Could not resolve keysym XF86Macro3
+> Warning:          Could not resolve keysym XF86Macro4
+> Warning:          Could not resolve keysym XF86Macro5
+> Warning:          Could not resolve keysym XF86Macro6
+> Warning:          Could not resolve keysym XF86Macro7
+> Warning:          Could not resolve keysym XF86Macro8
+> Warning:          Could not resolve keysym XF86Macro9
+> Warning:          Could not resolve keysym XF86Macro10
+> Warning:          Could not resolve keysym XF86Macro11
+> Warning:          Could not resolve keysym XF86Macro12
+> Warning:          Could not resolve keysym XF86Macro13
+> Warning:          Could not resolve keysym XF86Macro14
+> Warning:          Could not resolve keysym XF86Macro15
+> Warning:          Could not resolve keysym XF86Macro16
+> Warning:          Could not resolve keysym XF86Macro17
+> Warning:          Could not resolve keysym XF86Macro18
+> Warning:          Could not resolve keysym XF86Macro19
+> Warning:          Could not resolve keysym XF86Macro20
+> Warning:          Could not resolve keysym XF86Macro21
+> Warning:          Could not resolve keysym XF86Macro22
+> Warning:          Could not resolve keysym XF86Macro23
+> Warning:          Could not resolve keysym XF86Macro24
+> Warning:          Could not resolve keysym XF86Macro25
+> Warning:          Could not resolve keysym XF86Macro26
+> Warning:          Could not resolve keysym XF86Macro27
+> Warning:          Could not resolve keysym XF86Macro28
+> Warning:          Could not resolve keysym XF86Macro29
+> Warning:          Could not resolve keysym XF86Macro30
+> Warning:          Could not resolve keysym XF86MacroRecordStart
+> Warning:          Could not resolve keysym XF86MacroRecordStop
+> Warning:          Could not resolve keysym XF86MacroPresetCycle
+> Warning:          Could not resolve keysym XF86MacroPreset1
+> Warning:          Could not resolve keysym XF86MacroPreset2
+> Warning:          Could not resolve keysym XF86MacroPreset3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu1
+> Warning:          Could not resolve keysym XF86KbdLcdMenu2
+> Warning:          Could not resolve keysym XF86KbdLcdMenu3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu4
+> Warning:          Could not resolve keysym XF86KbdLcdMenu5
+Errors from xkbcomp are not fatal to the X server
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+dbus-update-activation-environment: error: unable to connect to D-Bus: Using X11 for dbus-daemon autolaunch was disabled at compile time, set your DBUS_SESSION_BUS_ADDRESS instead
+/etc/X11/xinit/xinitrc: line 51: twm: command not found
+/etc/X11/xinit/xinitrc: line 52: xclock: command not found
+/etc/X11/xinit/xinitrc: line 53: xterm: command not found
+/etc/X11/xinit/xinitrc: line 55: exec: xterm: not found
+/etc/X11/xinit/xinitrc: line 54: xterm: command not found
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
